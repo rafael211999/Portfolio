@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+.links {
+  display: flex;
+}
+
+.itens {
+  display: flex;
+  padding: 15px;
+  color: chocolate;
+}
+
+.itens a {
+  text-decoration: none;
+  color: chocolate;
+  font-family: cursive;
+}
+
+.itens a:hover {
+  color: rgb(0, 174, 255);
+}
+
+.nome {
+  display: flex;
+  padding: 15px;
+  color: chocolate;
+  font-family: cursive;
+}
+
+@media (max-width: 601px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+  }
+
+  .links {
+    display: flex;
+  }
+
+  .itens {
+    display: flex;
+    padding: 15px;
+    color: chocolate;
+  }
+
+  .itens a {
+    text-decoration: none;
+    color: chocolate;
+    font-family: cursive;
+  }
+
+  .itens a:hover {
+    color: rgb(0, 174, 255);
+  }
+
+  .nome {
+    display: flex;
+    padding: 15px;
+    color: chocolate;
+    font-family: cursive;
+  }
+}

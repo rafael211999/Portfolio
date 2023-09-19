@@ -1,0 +1,22 @@
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 20px;
+    background-color: black ;
+    color: chocolate;
+}
+
+.inputsChildren{
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputsChildren input{
+    margin: 0 0 0 50px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
